@@ -1,0 +1,14 @@
+node_modules/
+build/
+.svelte-kit/
+admin/web/dist/
+admin/bin/
+admin/internal/webui/dist/*
+!admin/internal/webui/dist/.gitkeep
+site/content/works/*
+!site/content/works/.gitkeep
+*.log
+.DS_Store
+.env
+.env.*
+!.env.example

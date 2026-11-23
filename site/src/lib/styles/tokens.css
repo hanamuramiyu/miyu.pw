@@ -1,0 +1,51 @@
+:root {
+  color-scheme: dark;
+
+  --color-bg: #141211;
+  --color-bg-raised: #1b1816;
+  --color-text: #ebe4dc;
+  --color-text-muted: #a89d94;
+  --color-line: #2c2825;
+  --color-line-strong: #3b3531;
+  --color-accent: #d5c4b4;
+  --color-accent-soft: #e7d9cb;
+  --color-focus: #d5c4b4;
+
+  --font-display: 'Comfortaa Variable', 'Manrope Variable', ui-sans-serif, system-ui, sans-serif;
+  --font-body: 'Manrope Variable', ui-sans-serif, system-ui, sans-serif;
+
+  --text-xs: 0.8125rem;
+  --text-sm: 0.9375rem;
+  --text-base: 1.0625rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.5rem;
+  --text-2xl: 1.875rem;
+  --text-3xl: clamp(1.75rem, 3vw, 2.5rem);
+  --text-display: clamp(2.5rem, 6vw, 4.5rem);
+
+  --leading-tight: 1.05;
+  --leading-heading: 1.15;
+  --leading-body: 1.65;
+  --measure: 68ch;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+
+  --gutter: clamp(1.25rem, 4vw, 4rem);
+  --section-y: clamp(2.5rem, 4.5vw, 4rem);
+  --header-h: 3.9375rem;
+
+  --radius-sm: 0.25rem;
+
+  --ease-out: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --dur-fast: 140ms;
+
+  --z-header: 20;
+  --z-overlay: 40;
+}

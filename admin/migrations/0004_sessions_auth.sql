@@ -1,0 +1,4 @@
+
+ALTER TABLE sessions
+    ADD COLUMN IF NOT EXISTS login text NOT NULL DEFAULT '',
+    ADD COLUMN IF NOT EXISTS csrf_token text NOT NULL DEFAULT '';

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <noscript>
+      <style>
+        .nav .toggle,
+        .nav .close {
+          display: none !important;
+        }
+
+        .nav .menu {
+          position: static !important;
+          inset: auto !important;
+          z-index: auto !important;
+          display: flex !important;
+          flex-direction: row !important;
+          justify-content: flex-start !important;
+          gap: var(--space-4) !important;
+          padding: 0 !important;
+          background: none !important;
+        }
+
+        .nav .menu-inner {
+          flex-direction: row !important;
+          align-items: center !important;
+          gap: var(--space-4) !important;
+          font-family: var(--font-body) !important;
+          font-size: var(--text-sm) !important;
+          line-height: var(--leading-body) !important;
+        }
+      </style>
+    </noscript>
+    <link rel="icon" href="%sveltekit.assets%/favicon.png" type="image/png" sizes="64x64" />
+    <link rel="icon" href="%sveltekit.assets%/icon-192.png" type="image/png" sizes="192x192" />
+    <link rel="icon" href="%sveltekit.assets%/icon-512.png" type="image/png" sizes="512x512" />
+    <link rel="apple-touch-icon" href="%sveltekit.assets%/apple-touch-icon.png" />
+    %sveltekit.head%
+  </head>
+  <body data-sveltekit-preload-data="hover">
+    <div style="display: contents">%sveltekit.body%</div>
+  </body>
+</html>
